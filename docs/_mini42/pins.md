@@ -1,5 +1,5 @@
 ---
-permalink: /mini42/pins
+permalink: /mini42/pins/
 ---
 
 # mini42 Pin Assignment

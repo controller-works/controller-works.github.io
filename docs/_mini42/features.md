@@ -1,5 +1,5 @@
 ---
-permalink: /mini42/features
+permalink: /mini42/features/
 ---
 ## Features
 - Highly integrated design with microcontroller, USB and TRRS connectors, and OLED all integrated on the main board with no secondary modules

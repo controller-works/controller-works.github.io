@@ -1,5 +1,5 @@
 ---
-permalink: /mini42/bootloader
+permalink: /mini42/bootloader/
 ---
 ## Bootloader
 
