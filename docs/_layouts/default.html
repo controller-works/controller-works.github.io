@@ -38,12 +38,17 @@
           <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
         </ul>
         {% endif %}
-        <ul>
-            <li><a href="/cornedc/">Corne DC</a></li>
-            <li><a href="/corneob/">Corne OB</a></li>
-            <li><a href="/mini36/">mini36</a></li>
-            <li><a href="/mini42/">mini42</a></li>
+        <a href="/cornedc/">Corne DC</a>
+        <a href="/corneob/">Corne OB</a>
+        <a href="/mini36/">mini36</a>
+        <a href="/mini42/">mini42</a>
+        {% if page.collection == 'mini42' %}
+        <ul class="downloads">
+            <li><a href="/mini42/features">Features</a></li>
+            <li><a href="/mini42/bootloader">Bootloader</a></li>
+            <li><a href="/mini42/pins">Pins</a></li>
         </ul>
+        {% endif %}        
       </header>
       <section>
 
