@@ -1,0 +1,5 @@
+---
+permalink: /corneob/
+---
+
+# Corne OB
