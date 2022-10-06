@@ -4,7 +4,11 @@ plugins:
 title: "Controller Works Documentation"
 description: "Here is the place for all of the documentation for Controller Works products"
 collections:
-  - corne_dc
-  - corne_ob
-  - mini36
-  - mini42
+  corne_dc:
+    output: true
+  corne_ob:
+    output: true
+  mini36:
+    output: true
+  mini42:
+    output: true
