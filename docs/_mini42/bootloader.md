@@ -1,6 +1,6 @@
 ---
-layout: default
 permalink: /mini42/bootloader/
+date: 2022-10-02 01:01:00
 ---
 ## Bootloader
 
