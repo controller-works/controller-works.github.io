@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /mini42/index
+permalink: /mini42/index.html
 ---
 ## Introduction
 
