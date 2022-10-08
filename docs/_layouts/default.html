@@ -27,9 +27,9 @@
         <p><a href="/mini42/">mini42</a></p>
         {% if page.collection == 'mini42' %}
         <ul>
-            <li><a href="/mini42/features/">Features</a></li>
-            <li><a href="/mini42/bootloader/">Bootloader</a></li>
-            <li><a href="/mini42/pins/">Pins</a></li>
+          {% for mini42 in site.mini42 %}
+            <li><a href="{{ mini42.url | prepend: site.baseurl }}">{{ mini42.title }}</a></li>
+          {% endfor %}
         </ul>
         {% endif %}        
       </header>
