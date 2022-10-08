@@ -1,6 +1,5 @@
 ---
-layout: default
-permalink: /index.html
+permalink: /
 ---
 # Controller Works Documentation
 Documentation for current and legacy Controller Works products

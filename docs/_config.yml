@@ -3,6 +3,12 @@ plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 title: "Controller Works Documentation"
 description: "Here is the place for all of the documentation for Controller Works products"
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
 collections:
   corne_dc:
     output: true
