@@ -2,6 +2,5 @@
 layout: default
 permalink: /mini42/
 ---
-
 # mini42 Keyboard
-This is introductory text.
+42 keys and RP2040 processors.
