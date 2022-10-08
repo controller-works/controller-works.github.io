@@ -25,7 +25,7 @@
         <p><a href="/corneob/">Corne OB</a></p>
         <p><a href="/mini36/">mini36</a></p>
         <p><a href="/mini42/">mini42</a></p>
-        {% if page.collection == 'mini42' %}
+        {% if page.collection == 'mini42' or page.url == '/mini42/'%}
         <ul>
           {% for mini42 in site.mini42 %}
             <li><a href="{{ mini42.url | prepend: site.baseurl }}">{{ mini42.title }}</a></li>
