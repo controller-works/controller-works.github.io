@@ -8,4 +8,4 @@ When building firmware you must uncomment
 ```mk
 /* #define EE_HANDS  */
 ```
-for proper functioning. This is because the board does not use a pull-up resister to set the main versus secondary side of the keyboard.
+in your config.h for proper functioning. This is because the board does not use a pull-up resister to set the main versus secondary side of the keyboard.
