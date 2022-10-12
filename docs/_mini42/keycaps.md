@@ -1,6 +1,7 @@
 ---
 permalink: /mini42/keycaps/
 date: 2022-10-04 01:01:00
+title: Key Caps
 ---
 # Key Caps
 The keyboard is compatible with key caps for Kailh chocolate PG1350 low profile switches only. Key caps must be compatible with chocolate spacing. This means their width must be less than 18mm and their height must be less than 17mm.
