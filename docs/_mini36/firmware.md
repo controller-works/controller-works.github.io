@@ -20,3 +20,18 @@ Enter the bootloader in 3 ways:
 * **Bootmagic reset**: Hold down the upper left key on the left hand keyboard half or the upper right key on the right hand keyboard half while plugging in USB
 * **Physical reset button**: Press the RST button twice, rapidly. The RST button can only be pressed using a narrow object such as a toothpick to prevent accidental activation.
 * **Keycode in layout**: Press the key mapped to `QK_BOOT` if it is available
+
+## Pre-Built Firmware
+Get into bootloader mode (see above). The keyboard will appear as a USB drive on your host machine. Drag one of the .UF2 files below onto the USB drive. Plug the USB into the other half of the keyboard and repeat the process.
+
+[mini36 default firmware Via uf2 file](/assets/controllerworks_mini36_via.uf2) **Use this if in doubt** Works with [Via app](https://usevia.app/#/)
+
+[mini36 default firmware Via bin file](/assets/controllerworks_mini36_via.bin) Works with [Via app](https://usevia.app/#/)
+
+[mini36 default firmware no Via uf2 file](/assets/controllerworks_mini36_default.uf2)
+
+[mini36 default firmware no Via bin file](/assets/controllerworks_mini36_default.bin)
+
+[mini36 default firmware Vial uf2 file](/assets/controllerworks_mini36_vial.uf2) Works with [Vial app](https://vial.rocks/)
+
+[mini36 default firmware Vial bin file](/assets/controllerworks_mini36_vial.bin) Works with [Vial app](https://vial.rocks/)
