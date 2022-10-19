@@ -3,10 +3,11 @@ permalink: /mini36/firmware/
 date: 2022-10-02 01:01:00
 ---
 # Firmware
-* The easiest way to customize your keyboard is to use the pre-loaded firmware and apply a custom keymap using the Via app.
-* Another option is to load custom firmware.
-    * Vial firmware allows on-the-fly reconfiguration of keymaps and other keyboard functions. It is based on a fork of QMK, so a special firmware image must be loaded to utilize the Vial app.
-    * Custom firmware with a custom keymap can be created using the [QMK Online Configurator](https://config.qmk.fm/#/) You must enter bootloader mode on your keyboard to load new firmware.
+The easiest way to customize your keyboard is to use the pre-loaded firmware and apply a custom keymap using the Via app.
+
+Another option is to load custom firmware.
+* Vial firmware allows on-the-fly reconfiguration of keymaps and other keyboard functions. It is based on a fork of QMK, so a special firmware image must be loaded to utilize the Vial app.
+* Custom firmware with a custom keymap can be created using the [QMK Online Configurator](https://config.qmk.fm/#/) You must enter bootloader mode on your keyboard to load new firmware.
 
 ## Pre-Loaded Firmware
 The mini42 comes with an official build of QMK Via firmware pre-installed. Follow these steps to view and edit your keymap using the Via application.
