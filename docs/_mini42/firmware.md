@@ -3,10 +3,11 @@ permalink: /mini42/firmware/
 date: 2022-10-02 01:01:00
 ---
 # Firmware
-* The easiest way to customize your keyboard is to use the pre-loaded firmware and apply a custom keymap using the Via app.
-* Another option is to load custom firmware.
-    * Vial firmware allows on-the-fly reconfiguration of keymaps and other keyboard functions. It is based on a fork of QMK, so a special firmware image must be loaded to utilize the Vial app.
-    * Custom firmware with a custom keymap can be created using the [QMK Online Configurator](https://config.qmk.fm/#/) You must enter bootloader mode on your keyboard to load new firmware.
+The easiest way to customize your keyboard is to use the pre-loaded firmware and apply a custom keymap using the Via app.
+
+Another option is to load custom firmware.
+* Vial firmware allows on-the-fly reconfiguration of keymaps and other keyboard functions. It is based on a fork of QMK, so a special firmware image must be loaded to utilize the Vial app.
+* Custom firmware with a custom keymap can be created using the [QMK Online Configurator](https://config.qmk.fm/#/) You must enter bootloader mode on your keyboard to load new firmware.
 
 ## Pre-Loaded Firmware
 The mini42 comes with an official build of QMK Via firmware pre-installed. Follow these steps to view and edit your keymap using the Via application.
@@ -35,3 +36,8 @@ Get into bootloader mode (see above). The keyboard will appear as a USB drive on
 [mini42 default firmware Vial uf2 file](/assets/controllerworks_mini42_vial.uf2) Works with [Vial app](https://vial.rocks/)
 
 [mini42 default firmware Vial bin file](/assets/controllerworks_mini42_vial.bin) Works with [Vial app](https://vial.rocks/)
+
+## Build Your Own Firmware (Advanced)
+The mini42 is officially supported in QMK. Please follow [these instructions](https://docs.qmk.fm/#/newbs_getting_started) to build and customize your own firmware for the mini42.
+
+The mini42 is also supported in the Vial fork of QMK. Please follow [these instructions](https://get.vial.today/) for using and customizing Vial.
