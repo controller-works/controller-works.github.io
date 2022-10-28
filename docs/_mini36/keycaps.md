@@ -10,8 +10,7 @@ The keyboard is compatible with key caps for Kailh chocolate PG1350 low profile 
 * Kailh Chocolate "Pudding" Key Caps
 * MBK Glow Key Caps
 * MBK PBT Blank Key Caps
----
+
 ## NOT COMPATIBLE
 * Chocolate key caps with MX sizing (19mm x 19mm)
 * Kailh "crystal" polycarbonate key caps
----
