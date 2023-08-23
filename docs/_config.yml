@@ -11,9 +11,11 @@ defaults:
       layout: "default"
 collections:
   corne_dc:
-    output: true
+    output: false
   corne_ob:
-    output: true
+    output: false
+  city42:
+    output: true    
   mini36:
     output: true
   mini42:
