@@ -25,19 +25,11 @@ Enter the bootloader in 3 ways:
 ## Pre-Built Firmware
 Get into bootloader mode (see above). The keyboard will appear as a USB drive on your host machine. Drag one of the .UF2 files below onto the USB drive. Plug the USB into the other half of the keyboard and repeat the process.
 
-[mini36 default firmware Via uf2 file](/assets/controllerworks_mini36_via.uf2) **Use this if in doubt** Works with [Via app](https://usevia.app/#/)
-
-[mini36 default firmware Via bin file](/assets/controllerworks_mini36_via.bin) Works with [Via app](https://usevia.app/#/)
-
-[mini36 default firmware no Via uf2 file](/assets/controllerworks_mini36_default.uf2)
-
-[mini36 default firmware no Via bin file](/assets/controllerworks_mini36_default.bin)
+[mini36 default firmware Via uf2 file](https://raw.githubusercontent.com/the-via/firmware/master/controllerworks_mini36_via.uf2) **Use this if in doubt** Works with [Via app](https://usevia.app/#/)
 
 [mini36 default firmware Vial uf2 file](/assets/controllerworks_mini36_vial.uf2) Works with [Vial app](https://vial.rocks/)
 
-[mini36 default firmware Vial bin file](/assets/controllerworks_mini36_vial.bin) Works with [Vial app](https://vial.rocks/)
-
 ## Build Your Own Firmware (Advanced)
-The mini36 is officially supported in QMK (pending). Please follow [these instructions](https://docs.qmk.fm/#/newbs_getting_started) to build and customize your own firmware for the mini42.
+The mini36 is officially supported in QMK. Please follow [these instructions](https://docs.qmk.fm/#/newbs_getting_started) to build and customize your own firmware for the mini36.
 
-The mini36 is also supported in the Vial fork of QMK (pending). Please follow [these instructions](https://get.vial.today/) for using and customizing Vial.
+The mini36 is also supported in the Vial fork of QMK. Please follow [these instructions](https://get.vial.today/) for using and customizing Vial.

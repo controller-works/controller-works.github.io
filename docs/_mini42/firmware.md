@@ -25,17 +25,9 @@ Enter the bootloader in 3 ways:
 ## Pre-Built Firmware
 Get into bootloader mode (see above). The keyboard will appear as a USB drive on your host machine. Drag one of the .UF2 files below onto the USB drive. Plug the USB into the other half of the keyboard and repeat the process.
 
-[mini42 default firmware Via uf2 file](/assets/controllerworks_mini42_via.uf2) **Use this if in doubt** Works with [Via app](https://usevia.app/#/)
-
-[mini42 default firmware Via bin file](/assets/controllerworks_mini42_via.bin) Works with [Via app](https://usevia.app/#/)
-
-[mini42 default firmware no Via uf2 file](/assets/controllerworks_mini42_default.uf2)
-
-[mini42 default firmware no Via bin file](/assets/controllerworks_mini42_default.bin)
+[mini42 default firmware Via uf2 file](https://raw.githubusercontent.com/the-via/firmware/master/controllerworks_mini42_via.uf2) **Use this if in doubt** Works with [Via app](https://usevia.app/#/)
 
 [mini42 default firmware Vial uf2 file](/assets/controllerworks_mini42_vial.uf2) Works with [Vial app](https://vial.rocks/)
-
-[mini42 default firmware Vial bin file](/assets/controllerworks_mini42_vial.bin) Works with [Vial app](https://vial.rocks/)
 
 ## Build Your Own Firmware (Advanced)
 The mini42 is officially supported in QMK. Please follow [these instructions](https://docs.qmk.fm/#/newbs_getting_started) to build and customize your own firmware for the mini42.
