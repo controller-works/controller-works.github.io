@@ -20,9 +20,14 @@
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
-
-        <p><a href="/cornedc/">Corne DC</a></p>
-        <p><a href="/corneob/">Corne OB</a></p>
+        <p><a href="/city42/">city42</a></p>
+        {% if page.collection == 'city42' or page.url == '/city42/'%}
+        <ul>
+          {% for city42 in site.city42 %}
+            <li><a href="{{ city42.url | prepend: site.baseurl }}">{{ city42.title }}</a></li>
+          {% endfor %}
+        </ul>
+        {% endif %}   
         <p><a href="/mini36/">mini36</a></p>
         {% if page.collection == 'mini36' or page.url == '/mini36/'%}
         <ul>
